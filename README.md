@@ -1,5 +1,6 @@
 *trojan.js.youareanidiot*
+I Love Malware!!!!!!!!!!!!!!!!!!!!!!!
+Tasty tasty malware
+by. LENNOXX
+youareanidiot and lol html
 
-
-youareanidiot and lol
-https://lennoxraines-sudo.github.io/minecraft.EXE/ 
