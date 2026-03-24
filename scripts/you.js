@@ -32,12 +32,12 @@ faudio.addEventListener('timeupdate', function() {
     }
 }
 );
-/* [Oct 2021] End part. */
+
 
 function bookmark() {
 	if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) {
-		var url = "lol.html";
-		var title = "Idiot!";
+		var url = "lol.html"; //data url
+		var title = "Idiot!"; //changes display name
 		
 		window.external.AddFavorite(url, title);
 	}
@@ -108,7 +108,7 @@ window.onload = function () {
 	flagRun = 1;
 	
 	playBall();
-	bookmark(); // Internet Explorer only (what a piece of shit)
+	bookmark(); // Internet Explorer only (stupid)
 	
 	return true;
 }
@@ -135,7 +135,6 @@ window.onkeydown = function() {
 	return null;
 }
 
-window.onbeforeunload = function() {
-    return "Are you an idiot?";
+
 };
 /* [Oct 2021] End of amendments. */
