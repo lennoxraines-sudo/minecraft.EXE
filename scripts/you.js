@@ -1,4 +1,4 @@
-/* [Oct 2021] Added to comply with strict browser policies. */
+/* lol little jimmy's laptop after opening the site is like ahhhhhhhh*/
 document.addEventListener('click', musicPlay);
 
 function musicPlay() {
@@ -21,7 +21,7 @@ function musicPlay() {
 	document.removeEventListener('click', musicPlay);
 }
 
-var faudio = new Audio('youare.mp3')
+var faudio = new Audio('youare.mp3') //plays audio
 
 faudio.addEventListener('timeupdate', function() {
 	console.log('TimeUpdate invoked.');
@@ -58,8 +58,8 @@ function openWindow(url) {
 }
 
 function proCreate() {	
-	for (var i = 0; i < 10; i++) {
-		openWindow('lol.html');
+	for (var i = 0; i < 10; i++) { //opens 10 bouncy windows 
+		openWindow('lol.html'); 
 	}
 }
 
@@ -128,7 +128,7 @@ window.onkeydown = function() {
 	var keyCode = event.keyCode;
 	
 	if (keyCode == 17 || keyCode == 18 || keyCode == 46 || keyCode == 115) {	
-		alert("You are an idiot!"); 
+		alert("You are an idiot!"); //wish i made this appear more
 		proCreate();
 	}
 	
