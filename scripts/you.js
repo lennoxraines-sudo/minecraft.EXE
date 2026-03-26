@@ -1,4 +1,3 @@
-
 /* [Oct 2021] Added to comply with strict browser policies. */
 document.addEventListener('click', musicPlay);
 
@@ -59,7 +58,7 @@ function openWindow(url) {
 }
 
 function proCreate() {	
-	for (var i = 0; i < 3; i++) {
+	for (var i = 0; i < 5; i++) {
 		openWindow('lol.html');
 	}
 }
@@ -104,12 +103,12 @@ function playBall() {
     }
 }
 
-
+/* [Oct 2021] Better code. */
 window.onload = function () {
 	flagRun = 1;
 	
 	playBall();
-	bookmark(); // Internet Explorer only
+	bookmark(); // Internet Explorer only (what a piece of shit)
 	
 	return true;
 }
